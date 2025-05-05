@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eef2f3;
+    color: #333;
+  }
+
+  header {
+    background-color: #3c3f58;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .seccion1 {
+    background-color: #f44336;
+    padding: 1rem;
+  }
+  
+  .seccion1 h2 {
+    background-color: #f44336;
+    color: #636363;
+    padding: 1rem;
+    width: 80%;
+    margin: 10px auto;
+    font-family:"Knewave", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+  }
+
+  .seccion2 {
+    border: 2px solid #0a0a0a;
+    padding: 1rem;
+    width: 80%;
+    margin: 30px auto;
+  }
+
+  .seccion2 h2 {
+    font-family:"Knewave", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    border: inherit;
+    color: #636363;
+    width: inherit;
+    margin: 10px auto;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .seccion3 {
+    font-family: 'Knewave', cursive;
+    color: #636363;
+    width: 80%;
+    margin: 30px auto;
+  }
+
+  .seccion3 h2 {
+    font-family:"Knewave", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    background-color: #b9ffb7;
+    width: inherit;
+    margin: 10px auto;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid black;
+  }
+   /* Footer */
+   footer {
+    margin-top: 30px;
+    background-color: #3c3f58;
+    padding: 15px;
+  }
+  
+  footer button {
+    margin: 0 10px;
+    background-color: #3c3f58;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+  }
+  button{
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  a{
+    color: #ffffff;
+  }
+  footer nav{
+    display: flex;
+    justify-content: center; /* Centra los botones */
+    gap: 40px; /* Espacio entre ellos */
+    padding: 10px;
+    }

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+  }
+  body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #333;
+    }
+  
+    header {
+      background-color: #3c3f58;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+  
+  .contenedor {
+    width: 100%;
+    margin: 20px auto;
+    position: relative;
+  }
+  
+  .seccion {
+    position: relative;
+    text-align: center;
+    padding: 60px 20px;
+    width: 100%;
+    min-height: 100px;
+    
+  }
+  
+  .after {
+    color: #ffffff;
+    background-color: #d42a2a;
+    position: relative;
+  }
+  
+  .after::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    display: block;
+    background-color: #d42a2a;
+    transform: rotate(45deg);
+  }
+  
+  .before {
+    background-color: #079475;
+    color: #ffffff;
+  }
+  
+  .before::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    display: block;
+    background-color: #079475;
+    transform: rotate(45deg);
+  }
+  
+  .botones {
+    background-color: #76449b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+    gap: 20px;
+  }
+  
+  .boton {
+    display: inline-block;
+    background-color: white;
+    color: #76449b;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background 0.3s;
+  }
+  
+  .boton:hover {
+    background-color: #ff5400;
+    color: white;
+  }
+
+footer {
+  margin-top: 30px;
+  background-color: #3c3f58;
+  padding: 15px;
+}
+
+footer button {
+  margin: 0 10px;
+  background-color: #3c3f58;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+a{
+  color: #ffffff;
+}
+footer nav{
+  display: flex;
+  justify-content: center; 
+  gap: 40px; 
+  padding: 20px;
+  }

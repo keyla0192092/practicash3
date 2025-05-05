@@ -1,0 +1,141 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f0f3f7;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #4a4a6a;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .enlaces {
+    background-color: #1a1a2e;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+  }
+  
+  .enlaces a {
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: 1px solid transparent;
+    margin: 5px;
+  }
+  
+  .enlaces a:link {
+    color: white;
+  }
+  
+  .enlaces a:hover {
+    background-color: #00c6ff;
+    color: black;
+  }
+  
+  .enlaces a:visited {
+    color: pink;
+  }
+  
+  .enlaces a:active {
+    background-color: yellow;
+    color: black;
+  }
+  
+  #target {
+    background-color: #7b4fb7;
+    padding: 0.5rem 1rem;
+    margin-top: 10px;
+  }
+  
+  #target:target {
+    border: 2px solid white;
+  }
+  
+  .formulario {
+    background-color: #0f1626;
+    color: white;
+    padding: 1rem;
+  }
+  
+  form {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border: 2px solid #333;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  input[type="text"] {
+    display: block;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    width: 200px;
+  }
+  
+  input:focus {
+    border: 2px solid #00c6ff;
+  }
+  
+  input[type="checkbox"]:checked {
+    accent-color: #00c6ff;
+  }
+  
+  .lista {
+    margin-top: 20px;
+  }
+  
+  .lista div:nth-child(even) {
+    background-color: gold;
+    color: black;
+    padding: 1rem;
+  }
+  
+  .lista div:nth-child(odd) {
+    background-color: cyan;
+    color: black;
+    padding: 1rem;
+  }
+  
+  .lista div:nth-child(4) {
+    background-color: crimson;
+    color: white;
+  }
+  
+  footer {
+    background-color: #2e2e4d;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  footer {
+    margin-top: 30px;
+    background-color: #3c3f58;
+    padding: 15px;
+  }
+  
+  footer button {
+    margin: 0 10px;
+    background-color: #3c3f58;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+  }
+  a{
+    color: #ffffff;
+  }
+  footer nav{
+    display: flex;
+    justify-content: center; 
+    gap: 40px; 
+    padding: 10px;
+    }
+  
+  

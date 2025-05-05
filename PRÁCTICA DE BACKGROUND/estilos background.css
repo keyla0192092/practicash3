@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+  }
+  body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #eef2f3;
+      color: #333;
+    }
+  
+    header {
+      background-color: #3c3f58;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+
+ footer {
+    margin-top: 30px;
+    background-color: #3c3f58;
+    padding: 15px;
+  }
+  
+  footer button {
+    margin: 0 10px;
+    background-color: #3c3f58;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+  }
+  button{
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  a{
+    color: #ffffff;
+  }
+  footer nav{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px;
+    }
+  .seccion{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    font-size: 10rem ;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+  .position{
+    background-image: url(../imagenes/toys-5353951_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .attachment{
+    background-image: url(../imagenes/pokemon-go-1544634_1280.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.repeat {
+    background-image: url(../imagenes/mosaic-758148_1280.jpg);
+    background-repeat: repeat;
+    background-color: #f0f0f0;
+    color: #ffffff;
+  }
